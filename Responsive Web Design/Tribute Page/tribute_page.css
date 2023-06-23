@@ -1,0 +1,59 @@
+header {
+    text-align:center;
+    background-color:rgb(40,40,60);
+  }
+  
+  html {
+    font-family:Segoe UI;
+    color:white;
+  }
+  
+  h1 {
+    margin:0 0 -20px 0;
+    font-size:40px;
+  }
+  
+  h3 {
+    font-weight:normal;
+  }
+  
+  body {
+    background-color:rgb(30,30,50);
+  }
+  
+  img {
+    max-width:100%;
+    width:80vw;
+    padding:10px;
+    display:block;
+    margin:auto;
+    height:auto;
+  }
+  
+  a {
+    color:white;
+  }
+  
+  #img-caption {
+    margin:-10px 0;
+    display:flex;
+    justify-content:center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  #tribute-info, ul {
+    background-color:rgb(40,40,60);
+  }
+  
+  #quote {
+    color:gray;
+  }
+  
+  #timeline {
+    display:block;
+    justify-content:center;
+    width:100vw;
+  }

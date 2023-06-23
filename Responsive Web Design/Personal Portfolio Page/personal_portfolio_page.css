@@ -1,0 +1,54 @@
+#welcome-section {
+    background:linear-gradient(70deg,rgb(100,100,100),rgb(40,40,40));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #navbar {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index:1;
+    background-color:rgb(180,0,0);
+  }
+  
+  * {
+    font-family:Poppins;
+  }
+  
+  li {
+    font-weight:bold;
+    list-style:none;
+    display:list-item;
+    margin-right:2rem;
+    text-align: -webkit-match-parent;
+  }
+  
+  a {
+    display:block;
+    text-decoration:none;
+    color:white;
+  }
+  
+  h1,h3 {
+    color:linen;
+    margin:2px;
+  }
+  
+  .project-tile {
+    width:50%;
+  }
+  
+  @media (max-width:760px) {
+    .project-tile {
+    width:100%;
+  }
+}
