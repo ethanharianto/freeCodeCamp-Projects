@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id="main">
+  <form id="calc_form">
+    <header class="calc_header">
+      <input type="text" disabled id="display" class="calc_output" value="0" />
+    </header>
+    <footer class="calc_footer">
+      <div class="btn_group">
+        <button data-type="clear" type="reset" value="clear" class="btn btn-grey" id="clear">
+          AC
+        </button>
+        <button data-type="operator" value="invert" class="btn btn-grey">
+          +/-
+        </button>
+        <button data-type="operator" value="%" class="btn btn-grey">
+          %
+        </button>
+        <button data-type="operator" value="/" class="btn btn-purple" id="divide">
+          ÷
+        </button>
+      </div>
+      <div class="btn_group">
+        <button data-type="operand" value="7" class="btn btn-dark-grey" id="seven">
+          7
+        </button>
+        <button data-type="operand" value="8" class="btn btn-dark-grey" id="eight">
+          8
+        </button>
+        <button data-type="operand" value="9" class="btn btn-dark-grey" id="nine">
+          9
+        </button>
+        <button data-type="operator" value="*" class="btn btn-purple" id="multiply">
+          x
+        </button>
+      </div>
+      <div class="btn_group">
+        <button data-type="operand" value="4" class="btn btn-dark-grey" id="four">
+          4
+        </button>
+        <button data-type="operand" value="5" class="btn btn-dark-grey" id="five">
+          5
+        </button>
+        <button data-type="operand" value="6" class="btn btn-dark-grey" id="six">
+          6
+        </button>
+        <button data-type="operator" value="-" class="btn btn-purple" id="subtract">
+          -
+        </button>
+      </div>
+      <div class="btn_group">
+        <button data-type="operand" value="1" class="btn btn-dark-grey" id="one">
+          1
+        </button>
+        <button data-type="operand" value="2" class="btn btn-dark-grey" id="two">
+          2
+        </button>
+        <button data-type="operand" value="3" class="btn btn-dark-grey" id="three">
+          3
+        </button>
+        <button data-type="operator" value="+" class="btn btn-purple" id="add">
+          +
+        </button>
+      </div>
+      <div class="btn_group">
+        <button data-type="operand" value="0" class="btn btn-grow btn-dark-grey" id="zero">
+          0
+        </button>
+        <button data-type="operand" value="." class="btn btn-dark-grey" id="decimal">
+          .
+        </button>
+        <button value="=" id="equals" data-type="operator" class="btn btn-purple">
+          =
+        </button>
+      </div>
+    </footer>
+  </form>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+.container-fluid {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: sans-serif;
+}
+
+#quote-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  min-width: 50%;
+}
+
+body {
+  position: relative;
+  background-color: #0d493b;
+}
+
+.well {
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #0d493b;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+section {
+  min-height: 90vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 10px;
+}
+
+#text, #author {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+#new-quote {
+  margin: 0 auto;
+}
