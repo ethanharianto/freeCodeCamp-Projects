@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(180deg, #271f30 0%, #1f2020 100%);
+  font: sans;
+  margin: 0;
+}
+
+.container {
+ display: flex;
+ height: 100%;
+  overflow: hidden;
+}
+
+.chart {
+  display: flex;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0px 0px 2px #000;
+}
+
+path.domain {
+  width: 0px;
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.5;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  padding: 10px;
+  width: 80px;
+  height: 30px;
+  margin-top: -52px;
+  margin-left: -102px;
+  font: 14px;        
+  background: #ffffff;
+  border: 1px solid black;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
